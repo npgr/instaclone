@@ -4,3 +4,6 @@
 /client/build
 
 /server/.env
+
+.DS_Store
+.eslintcache
