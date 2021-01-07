@@ -1,0 +1,34 @@
+mutation register($input: UserInput) {
+  register(input: $input) {
+    id
+    name
+    username
+    email
+    password
+    createAt
+  }
+}
+
+{
+  "input": {
+    "name": "Nuno Goncalves",
+    "username": "ngoncalves",
+    "email": "Nuno@email",
+    "password": "123"
+  }
+}
+
+-------------------
+
+mutation login($input: LoginInput) {
+  login(input: $input) {
+		token
+  }
+}
+
+{
+  "input": {
+		"email": "nuno@email",
+    "password": "123"
+  }
+}
