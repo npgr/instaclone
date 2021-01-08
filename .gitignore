@@ -6,4 +6,4 @@
 /server/.env
 
 .DS_Store
-.eslintcache
+/client/.eslintcache
